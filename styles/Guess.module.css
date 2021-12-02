@@ -1,0 +1,61 @@
+.athink {
+    position: absolute; 
+    top: 370px; 
+    left: 800px; 
+    text-indent: -9999px;
+    width: 20px; /* Ширина области */
+    height: 20px; /* Высота области */
+}
+
+.thinkimg {
+    width: 2900px; /* Ширина области */
+    height: 800px; /* Высота области */
+    margin: 0; /* Обнуляем отступы */
+    min-width: 600px; /* Минимальная ширина */
+   }
+.thinkimg img { 
+    width: 100%; /* Ширина изображений */
+    margin: -10% 0 0 0; /* Сдвигаем вверх */
+}
+
+.sneakh1 {
+    border-radius: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    border-width: 4px;
+    margin-bottom: 30px;
+    background-color:mediumpurple;
+    border-color:mediumslateblue;
+}
+
+.sneakp{
+    border-radius: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    border-width: 4px;
+    margin-top: 30px;
+    background-color:mediumpurple;
+    border-color:mediumslateblue;
+}
+
+.sneakimg {
+    border-radius: 3rem;
+}
+
+@media (min-width: 1000px) {
+    .sneakh1 {
+        font-size: 2rem;
+    }
+    .sneakp {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .sneakh1 {
+        font-size: 4rem;
+    }
+    .sneakp {
+        font-size: 4rem;
+    }
+}

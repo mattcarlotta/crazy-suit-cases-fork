@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+
+@font-face {
+  font-family: "Poppitandfinch";
+  src: url("/fonts/PoppitAndFinch.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppitandfinchsans";
+  src: url("/fonts/PoppitAndFinchSans.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: regular;
+  font-display: swap;
+}
+/* My fonts */
+@font-face {
+  font-family: "GardeneStone";
+  src: url("/fonts/Gardene-Stone.ttf") format("truetype");
+  font-weight: 300;
+  font-style: regular;
+  font-display: swap;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#bodyy {
+  background-image: url(/images/patt.jpg);
+  background-position: 0px 0px;
+  background-size: 75%;
+  background-repeat: repeat;
+}
+
+@media (min-width: 1024px) {
+  #bodyy {
+    background-size: 35%;
+  }
+}
+
+.montserrat {
+  font-family: Montserrat-Light, sans-serif;
+}
+.Poppitandfinch {
+  font-family: Poppitandfinch, sans-serif;
+}
+
+.Poppitandfinchsans {
+  font-family: Poppitandfinchsans, sans-serif;
+}
+
+.AgentFrank {
+  font-family: AgentFrank, sans-serif;
+}
+
+.GardeneStone {
+  font-family: GardeneStone, sans-serif;
+}
+
+.text-blau {
+  color: #fbc036;
+}
+
+.text-green-m {
+  color: #4fdd3e;
+}
+
+.border-blau {
+  border-color: #fbc036;
+}
+
+.text-redor {
+  color: #b54634;
+}
+
+.bg-blau {
+  background-color: #fbc036;
+}
+
+.rounded-xxl {
+  border-radius: 6rem;
+}
+
+.priority-1 {
+  flex: 4;
+}
+
+.priority-2 {
+  flex: 3;
+}
+
+.roadmap {
+  /*     height: 50rem; */
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mosaic {
+  font-family: "Palette Mosaic", cursive;
+}
+
+.josaf {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.incon {
+  font-family: "Inconsolata", monospace;
+}
+
+#givecrypto {
+  transition: all 0.4s ease;
+  color: #52dbe7;
+}
+
+#givecrypto:hover {
+  color: #ce5240;
+}
+
+.links {
+  transition: all 0.4s ease;
+}
+
+.links:hover {
+  color: #fbc036;
+}
+
+.stamps {
+  background-image: url(/images/stamps_blue_87.jpg);
+  background-position: 0px 0px;
+  background-size: 30%;
+  background-repeat: repeat;
+}
+
+@media (max-width: 350px) {
+  .givecrypto {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 350px) {
+  .iphonex {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .windows {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
